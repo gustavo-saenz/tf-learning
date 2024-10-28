@@ -1,0 +1,21 @@
+git log:                 # shows all the commits done on a branch
+
+# staging at git
+git add .                 #includes all the files avialable in side the specific branch
+git add <filename>        #includes only the files typed to be commited into the branched worked on
+git commit -m "Comment"   #Commits all the changes into the branched being worked on inside the selected branch
+
+# branching on git
+git branch                #displays all the available branches including the one currently being worked on
+bit branch <BranchName>   #creates a branch named <BranchName>
+git checkout <BranchName> #switches the project to the branch named <BranchName>
+git commit -m
+
+# Commands to show status
+git show <hash>           #gives us extensive information about a commit
+git show --name-only      #gives us shorthand information a commi
+git reflog                #gives us information about all commits on all branches
+
+#Sharing commands:
+git push                  #Upload files into github repository
+git pull                  #download information from github repository
